@@ -23,7 +23,7 @@ Moving on, Nodemon behaves exactly the same as node, which means we can run our 
 #Enter the database, MongoDB.
 npm install mongodb --save
 
-API : 
+#API : 
 /* GET home page. */
 http://localhost:3000/
 /* GET all quotes */
@@ -37,7 +37,12 @@ http://localhost:3000/quotes/:id
 /*  DELETE Deleting quotes by ID */
 http://localhost:3000/quotes/:id
 
+#Installation
 
+$ git clone https://github.com/medtaher95/API
+$ npm uninstall 
+$ npm install 
+$ npm start 
 
 
 
