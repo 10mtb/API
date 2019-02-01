@@ -1,0 +1,45 @@
+#Getting started : 
+Start by creating a folder for this project. Feel free to call it anything you want. Once you navigate into it, run the npm init command.
+This command creates a package.json file which helps you manage dependencies that we install later in the tutorial.
+$ npm init
+#Using Express Generator : 
++Use the application generator tool, express-generator, to quickly create an application skeleton.
++The express-generator package installs the express command-line tool. Use the following command to do so:
+$ npm install express-generator -g
++Display the command options with the -h option:
+$ express --no-view
++On MacOS or Linux, run the app with this command:
+$ cd myapp
+$ npm install
++On Windows, use this command:
+> set DEBUG=yourapp:* & npm start
++Once you’re done, you should see that npm has saved Express as a dependency in package.json.
++Now, run $ npm start and navigate to localhost:3000 on your browser. You should see a message that says "Hello express"
+#CRUD - READ : router.get 
+#Enter Nodemon :
+Nodemon restarts the server automatically whenever you save a file that the server uses. We can install Nodemon by using the following command:
+$ npm install nodemon --save-dev
+Moving on, Nodemon behaves exactly the same as node, which means we can run our server by calling nodemon ./bin/www in the file package.js .
+#Enter the database, MongoDB.
+npm install mongodb --save
+
+API : 
+/* GET home page. */
+http://localhost:3000/
+/* GET all quotes */
+http://localhost:3000/quotes
+/* GET  quotes by ID */
+http://localhost:3000/quotes/:id
+/* POST add quotes */
+http://localhost:3000/quotes
+/* PUT update quotes by ID */
+http://localhost:3000/quotes/:id
+/*  DELETE Deleting quotes by ID */
+http://localhost:3000/quotes/:id
+
+
+
+
+
+
+
