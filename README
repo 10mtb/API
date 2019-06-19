@@ -39,7 +39,7 @@ http://localhost:3000/quotes/:id
 
 #Installation
 
-$ git clone https://github.com/medtaher95/API
+$ git clone https://github.com/10mtb/API
 $ npm uninstall 
 $ npm install 
 $ npm start 
